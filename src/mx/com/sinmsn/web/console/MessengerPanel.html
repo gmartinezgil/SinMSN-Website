@@ -1,0 +1,21 @@
+<wicket:panel>
+	<div wicket:id="contactDialog">
+		<form wicket:id="contactForm">
+			<table>
+				<tr>
+					<td><textarea wicket:id="incomingMessage" rows="12" cols="22"></textarea></td><td><img wicket:id="incomingContactPicture" /></td>
+				</tr>
+				<tr>
+					<td><textarea wicket:id="outgoingMessage" rows="6" cols="22"></textarea></td><td><img wicket:id="outgoingContactPicture" /></td>
+				</tr>
+				<tr>
+					<td><input wicket:id="sendMessageButton" type="submit" value="enviar" /></td><td>&nbsp;</td>
+				</tr>
+				</table>
+		</form>
+	</div>
+	
+	<div wicket:id="contactsFloatingPane">
+		<div wicket:id="msnContacts">[CONTACTS]</div>
+	</div>
+</wicket:panel>
